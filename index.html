@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social Media Dashboard</title>
+  </head>
+  <body class="dark-theme">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__info">
+          <h1 class="header__title">Social Media Dashboard</h1>
+          <h3 class="header__total-followers">Total Followers:23,004</h3>
+        </div>
+        <div class="header__switch">
+          <h2 id="theme-mode">Dark mode</h2>
+          <input type="checkbox" name="toggler" id="toggler" />
+        </div>
+      </div>
+    </header>
+    <section class="overview">
+      <div class="social-media-container">
+        <div class="social-media social-media--1">
+          <div class="social-media__name">
+            <img
+              src="images/icon-facebook.svg"
+              alt="Facebook Icon"
+              class="social-media__icon"
+            />
+            <h4>@nathanf</h4>
+          </div>
+          <div class="social-media__followers">
+            <p class="social-media__followers--number">1987</p>
+            <p class="social-media__text">Followers</p>
+          </div>
+          <div class="social-media__number">
+            <img src="images/icon-up.svg" alt="Up arrow icon" />
+            <span>12 Today</span>
+          </div>
+        </div>
+
+        <div class="social-media social-media--2">
+          <div class="social-media__name">
+            <img
+              src="images/icon-twitter.svg"
+              alt="Twitter Icon"
+              class="social-media__icon"
+            />
+            <h4>@nathanf</h4>
+          </div>
+          <div class="social-media__followers">
+            <p class="social-media__followers--number">1044</p>
+            <p class="social-media__text">Followers</p>
+          </div>
+          <div class="social-media__number">
+            <img src="images/icon-up.svg" alt="Up arrow icon" />
+            <span>99 Today</span>
+          </div>
+        </div>
+
+        <div class="social-media social-media--3">
+          <div class="social-media__name">
+            <img
+              src="images/icon-instagram.svg"
+              alt="Instagram Icon"
+              class="social-media__icon"
+            />
+            <h4>@realnathanf</h4>
+          </div>
+          <div class="social-media__followers">
+            <p class="social-media__followers--number">11k</p>
+            <p class="social-media__text">Followers</p>
+          </div>
+          <div class="social-media__number">
+            <img src="images/icon-up.svg" alt="Up arrow icon" />
+            <span>1099 Today</span>
+          </div>
+        </div>
+
+        <div class="social-media social-media--4">
+          <div class="social-media__name">
+            <img
+              src="images/icon-youtube.svg"
+              alt="YouTube Icon"
+              class="social-media__icon"
+            />
+            <h4>Nathan F.</h4>
+          </div>
+          <div class="social-media__followers">
+            <p class="social-media__followers--number">8239</p>
+            <p class="social-media__text">Subscribers</p>
+          </div>
+          <div class="social-media__number">
+            <img src="images/icon-down.svg" alt="Down arrow icon" />
+            <span>144 Today</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="overview-container">
+        <h2 class="overview__title">Overview - Today</h2>
+        <div class="overview__report overview__report--1">
+          <div class="overview__info">
+            <h4>Page Views</h4>
+            <img
+              src="images/icon-facebook.svg"
+              alt="Facebook icon"
+              class="overview__icon"
+            />
+          </div>
+          <div class="overview__stat">
+            <p class="overview__number">87</p>
+            <div class="overview__percent">
+              <img src="images/icon-up.svg" alt="Up arrow icon" />
+              <span>3%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview__report overview__report--2">
+          <div class="overview__info">
+            <h4>Likes</h4>
+            <img
+              src="images/icon-facebook.svg"
+              alt="Facebook icon"
+              class="overview__icon"
+            />
+          </div>
+          <div class="overview__stat">
+            <p class="overview__number">52</p>
+            <div class="overview__percent">
+              <img src="images/icon-down.svg" alt="Down arrow icon" />
+              <span>2%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview__report overview__report--3">
+          <div class="overview__info">
+            <h4>Likes</h4>
+            <img
+              src="images/icon-instagram.svg"
+              alt="Instagram icon"
+              class="overview__icon"
+            />
+          </div>
+          <div class="overview__stat">
+            <p class="overview__number">5462</p>
+            <div class="overview__percent">
+              <img src="images/icon-up.svg" alt="Up arrow icon" />
+              <span>2257%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview__report overview__report--4">
+          <div class="overview__info">
+            <h4>Profile Views</h4>
+            <img
+              src="images/icon-instagram.svg"
+              alt="Instagram icon"
+              class="overview__icon"
+            />
+          </div>
+          <div class="overview__stat">
+            <p class="overview__number">52k</p>
+            <div class="overview__percent">
+              <img src="images/icon-up.svg" alt="Up arrow icon" />
+              <span>1375%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview__report overview__report--5">
+          <div class="overview__info">
+            <h4>Retweets</h4>
+            <img
+              src="images/icon-twitter.svg"
+              alt="Twitter icon"
+              class="overview__icon"
+            />
+          </div>
+          <div class="overview__stat">
+            <p class="overview__number">117</p>
+            <div class="overview__percent">
+              <img src="images/icon-up.svg" alt="Up arrow icon" />
+              <span>303%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview__report overview__report--6">
+          <div class="overview__info">
+            <h4>Likes</h4>
+            <img
+              src="images/icon-twitter.svg"
+              alt="Twitter icon"
+              class="overview__icon"
+            />
+          </div>
+          <div class="overview__stat">
+            <p class="overview__number">507</p>
+            <div class="overview__percent">
+              <img src="images/icon-up.svg" alt="Up arrow icon" />
+              <span>553%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview__report overview__report--7">
+          <div class="overview__info">
+            <h4>Likes</h4>
+            <img
+              src="images/icon-youtube.svg"
+              alt="YouTube icon"
+              class="overview__icon"
+            />
+          </div>
+          <div class="overview__stat">
+            <p class="overview__number">107</p>
+            <div class="overview__percent">
+              <img src="images/icon-down.svg" alt="Down arrow icon" />
+              <span>19%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview__report overview__report--8">
+          <div class="overview__info">
+            <h4>Total Views</h4>
+            <img
+              src="images/icon-youtube.svg"
+              alt="YouTube icon"
+              class="overview__icon"
+            />
+          </div>
+          <div class="overview__stat">
+            <p class="overview__number">1407</p>
+            <div class="overview__percent">
+              <img src="images/icon-down.svg" alt="Down arrow icon" />
+              <span>12%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="main.js"></script>
+</html>
